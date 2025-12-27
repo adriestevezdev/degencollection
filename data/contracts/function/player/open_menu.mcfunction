@@ -1,7 +1,7 @@
 # Abrir menú de contratos para el jugador
 
 # Resetear el trigger
-scoreboard players set @s contracts.trigger 0
+scoreboard players set @s contract 0
 
 # Mostrar menú en el chat
 tellraw @s ["",{"text":"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","color":"gold","bold":true}]
