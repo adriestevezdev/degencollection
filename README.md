@@ -20,7 +20,7 @@ Un datapack que permite a los jugadores crear contratos donde pueden ofrecer rec
 ### Abrir el Menú de Contratos
 
 ```
-/trigger contract
+/trigger ct
 ```
 
 Este comando abre el menú principal donde podrás:
@@ -68,7 +68,7 @@ degencollection/
 
 ## 🎯 Scoreboards Utilizados
 
-- `contract` - Trigger para abrir el menú
+- `ct` - Trigger para abrir el menú
 - `contracts.id` - ID único para cada contrato
 - `contracts.active` - Marca si un jugador tiene un contrato activo
 
