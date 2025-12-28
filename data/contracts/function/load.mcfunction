@@ -16,6 +16,9 @@ execute unless score #global contracts.id matches 0.. run scoreboard players set
 # Inicializar storage
 data merge storage contracts:data {contracts:[],next_id:0}
 
+# Configurar almacenamiento físico
+function contracts:storage/setup
+
 # Mensaje de confirmación
 tellraw @a ["",{"text":"🌸 ","color":"light_purple"},{"text":"Sistema de Contratos ","color":"gold","bold":true},{"text":"⛩","color":"red"},{"text":" 🌸","color":"light_purple"}]
 tellraw @a ["",{"text":"   ","color":"gray"},{"text":"Datapack cargado correctamente","color":"green"}]
