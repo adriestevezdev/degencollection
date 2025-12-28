@@ -8,17 +8,14 @@ tellraw @s ["",{"text":"\n╔═════════════════
 tellraw @s ["",{"text":"║","color":"light_purple","bold":true},{"text":"  🌸 ⛩  ","color":"gold"},{"text":"CONTRATOS","color":"white","bold":true},{"text":"  ⛩ 🌸","color":"gold"},{"text":"  ║","color":"light_purple","bold":true}]
 tellraw @s ["",{"text":"╚═══════════════════════════════════╝","color":"light_purple","bold":true}]
 tellraw @s ""
-tellraw @s ["",{"text":"  🏮 ","color":"gold"},{"text":"Crear Contrato","color":"white","bold":true}]
+tellraw @s ["",{"text":"  🏮 ","color":"gold"},{"text":"[Crear Contrato]","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/trigger contracts.create"},"hoverEvent":{"action":"show_text","contents":"Click para crear un nuevo contrato"}}]
 tellraw @s ["",{"text":"     ","color":"gray"},{"text":"Ofrece recompensas a cambio de items","color":"gray"}]
-tellraw @s ["",{"text":"     ","color":"light_purple"},{"text":"[Próximamente]","color":"gray","italic":true}]
 tellraw @s ""
-tellraw @s ["",{"text":"  📜 ","color":"red"},{"text":"Ver Contratos Disponibles","color":"white","bold":true}]
+tellraw @s ["",{"text":"  📜 ","color":"red"},{"text":"[Ver Contratos]","color":"yellow","bold":true,"clickEvent":{"action":"suggest_command","value":"/trigger contracts.accept set "},"hoverEvent":{"action":"show_text","contents":"Próximamente: Ver lista de contratos"}}]
 tellraw @s ["",{"text":"     ","color":"gray"},{"text":"Acepta contratos de otros jugadores","color":"gray"}]
-tellraw @s ["",{"text":"     ","color":"light_purple"},{"text":"[Próximamente]","color":"gray","italic":true}]
 tellraw @s ""
-tellraw @s ["",{"text":"  🌸 ","color":"light_purple"},{"text":"Mis Contratos Activos","color":"white","bold":true}]
+tellraw @s ["",{"text":"  🌸 ","color":"light_purple"},{"text":"[Mis Contratos]","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/trigger contracts.cancel"},"hoverEvent":{"action":"show_text","contents":"Gestiona y cancela tus contratos"}}]
 tellraw @s ["",{"text":"     ","color":"gray"},{"text":"Gestiona tus contratos en curso","color":"gray"}]
-tellraw @s ["",{"text":"     ","color":"light_purple"},{"text":"[Próximamente]","color":"gray","italic":true}]
 tellraw @s ""
 tellraw @s ["",{"text":"─────────────────────────────────────","color":"gold"}]
 tellraw @s ""
